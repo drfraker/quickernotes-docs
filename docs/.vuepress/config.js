@@ -54,8 +54,8 @@ function genSidebarConfig (lang, title) {
   return {
     title: `${title}`, 
     children: [
-      `${lang}/docs/api/page-one`,
-      `${lang}/docs/api/page-two`,
+      `${lang}/docs/get-started/page-one`,
+      `${lang}/docs/get-started/page-two`,
     ] 
   }
 }
