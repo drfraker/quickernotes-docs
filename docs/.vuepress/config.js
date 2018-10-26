@@ -2,8 +2,8 @@ module.exports = {
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'Read the docs',
-      description: 'Go beyond static'
+      title: 'QuickerNotes Docs',
+      description: 'Get Help For QuickerNotes'
     },
     '/zh/': {
       lang: 'zh-CN',
@@ -26,7 +26,7 @@ module.exports = {
         ],
         sidebar: [
           '/docs/',
-          genSidebarConfig('', 'API')
+          genSidebarConfig('', 'GET STARTED')
         ]
       },
       '/zh/': {
