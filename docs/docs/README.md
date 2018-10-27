@@ -14,7 +14,7 @@ If you have any questions that we don't answer here, please give us a shout.
         <label>Email: <br> <input type="email" name="email" /></label>
       </p>
       <p>
-		<label>Message: <br> <textarea col10 row5 name="message"></textarea></label>
+		<label>Message: <br> <textarea name="message"></textarea></label>
       </p>
       <p>
         <button type="submit">Send</button>
