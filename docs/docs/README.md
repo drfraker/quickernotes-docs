@@ -1,6 +1,9 @@
 # QuickerNotes
 
-Fusce at pharetra diam. Sed eget erat nibh. Nulla condimentum eros a nisi placerat, nec ultrices arcu dictum. 
-Vestibulum nec elementum mi, id tempor ligula. Etiam ut lectus ac quam facilisis sodales. 
-Donec laoreet justo id diam aliquet aliquet. Vivamus arcu est, varius in erat non, 
-pharetra pulvinar magna. Fusce quis elementum nulla.````
+QuickerNotes is a SOAP notes application that integrates with the MINDBODY platform. We use data from your 
+MINDBODY site to create a robust charting system without the need for duplicated data entry. This documentation
+is meant to take you from sign up to advanced usage in as little time as possible. 
+
+If you have any questions that we don't answer here, please give us a shout.
+
+### add contact form here.

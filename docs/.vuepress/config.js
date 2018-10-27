@@ -2,7 +2,7 @@ module.exports = {
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'QuickerNotes Docs',
+      title: 'QuickerNotes',
       description: 'Get Help With QuickerNotes'
     }
   },
@@ -15,19 +15,19 @@ module.exports = {
         lastUpdated: 'Last Updated',
         nav: [
           {
-            text: 'Documentation',
+            text: 'docs',
             link: '/docs/'
           }
         ],
         sidebar: [
-          {
-            title: 'GET STARTED',
-            children: [
-              `/docs/get-started/page-one`,
-              `/docs/get-started/page-two`,
-            ]
-          },
           '/docs/',
+          {
+            title: 'GETTING STARTED',
+            children: [
+              `/docs/getting-started/how-it-works`,
+              `/docs/getting-started/sign-up`,
+            ]
+          }
         ]
       }
     }
