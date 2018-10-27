@@ -6,7 +6,7 @@ is meant to take you from sign up to advanced usage in as little time as possibl
 
 If you have any questions that we don't answer here, please give us a shout.
 
-<form name="contact" method="post" netlify>
+<form name="contact" method="POST" netlify>
 	<p>
         <label>Name: <br> <input type="text" name="name" /></label>
       </p>
