@@ -3,12 +3,7 @@ module.exports = {
     '/': {
       lang: 'en-US',
       title: 'QuickerNotes Docs',
-      description: 'Get Help For QuickerNotes'
-    },
-    '/zh/': {
-      lang: 'zh-CN',
-      title: '阅读文档',
-      description: '超越静态'
+      description: 'Get Help With QuickerNotes'
     }
   },
   themeConfig: {
@@ -20,42 +15,21 @@ module.exports = {
         lastUpdated: 'Last Updated',
         nav: [
           {
-            text: 'docs',
+            text: 'Documentation',
             link: '/docs/'
           }
         ],
         sidebar: [
-          '/docs/',
-          genSidebarConfig('', 'GET STARTED')
-        ]
-      },
-      '/zh/': {
-        label: 'Chinese',
-        selectText: 'languages',
-        editLinkText: 'Edit this page on GitHub',
-        lastUpdated: 'Last Updated',
-        nav: [
           {
-            text: 'docs',
-            link: '/zh/docs/'
-          }
-        ],
-        sidebar: [
-          '/zh/docs/',
-          genSidebarConfig('/zh', 'API')
-          
+            title: 'GET STARTED',
+            children: [
+              `/docs/get-started/page-one`,
+              `/docs/get-started/page-two`,
+            ]
+          },
+          '/docs/',
         ]
       }
     }
-  }
-}
-
-function genSidebarConfig (lang, title) {
-  return {
-    title: `${title}`, 
-    children: [
-      `${lang}/docs/get-started/page-one`,
-      `${lang}/docs/get-started/page-two`,
-    ] 
   }
 }
