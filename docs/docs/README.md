@@ -6,15 +6,15 @@ is meant to take you from sign up to advanced usage in as little time as possibl
 
 If you have any questions that we don't answer here, please give us a shout.
 
-<form name="contact" netlify>
+<form name="contact" method="post" netlify>
 	<p>
-        <label>Name <br> <input type="text" name="name" /></label>
+        <label>Name: <br> <input type="text" name="name" /></label>
       </p>
       <p>
-        <label>Email <br> <input type="email" name="email" /></label>
+        <label>Email: <br> <input type="email" name="email" /></label>
       </p>
       <p>
-		<label>Message <br> <textarea col10 row5 name="message"></textarea></label>
+		<label>Message: <br> <textarea col10 row5 name="message"></textarea></label>
       </p>
       <p>
         <button type="submit">Send</button>
