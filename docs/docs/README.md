@@ -1,4 +1,4 @@
-# About
+# About Quickernotes
 
 QuickerNotes is a SOAP notes application that integrates with the MINDBODY platform. We use data from your 
 MINDBODY site to create a robust charting system without the need for duplicated data entry. This documentation

@@ -1,35 +1,36 @@
 module.exports = {
-  locales: {
-    '/': {
-      lang: 'en-US',
-      title: 'QuickerNotes',
-      description: 'Get Help With QuickerNotes'
-    }
-  },
+  lang: 'en-US',
+  title: 'QuickerNotes ',
+  description: 'A comprehensive guide to using QuickerNotes software.',
+
   themeConfig: {
-    locales: {
-      '/': {
-        label: 'English',
-        selectText: 'languages',
-        editLinkText: 'Edit this page on GitHub',
-        lastUpdated: 'Last Updated',
-        nav: [
-          {
-            text: 'docs',
-            link: '/docs/'
-          }
-        ],
-        sidebar: [
-          '/docs/',
-          {
-            title: 'GETTING STARTED',
-            children: [
-              `/docs/getting-started/how-it-works`,
-              `/docs/getting-started/sign-up`,
-            ]
-          }
+    nav: [
+      {
+        text: 'Documentation',
+        link: '/docs/'
+      },
+      {
+        text: 'QuickerNotes',
+        link: 'https://quickernotes.com'
+      }
+    ],
+    sidebar: [
+      ['/docs/', "About"],
+      {
+        title: 'GETTING STARTED',
+        children: [
+          `/docs/getting-started/how-it-works`,
+          `/docs/getting-started/sign-up`,
+        ]
+      },
+      {
+        title: 'CUSTOM DIAGRAMS',
+        children: [
+          `/docs/custom-diagrams/availability`,
+          `/docs/custom-diagrams/uploading-images`,
+          `/docs/custom-diagrams/deleting-images`,
         ]
       }
-    }
+    ]
   }
 }
