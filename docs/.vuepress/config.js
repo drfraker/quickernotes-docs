@@ -19,8 +19,8 @@ module.exports = {
       {
         title: 'GETTING STARTED',
         children: [
-          `/docs/getting-started/how-it-works`,
           `/docs/getting-started/sign-up`,
+          `/docs/getting-started/logging-in`,
         ]
       },
       {
@@ -29,6 +29,8 @@ module.exports = {
           `/docs/custom-diagrams/availability`,
           `/docs/custom-diagrams/uploading-images`,
           `/docs/custom-diagrams/deleting-images`,
+          `/docs/custom-diagrams/add-diagram-to-note`,
+          `/docs/custom-diagrams/image-library`,
         ]
       }
     ],
