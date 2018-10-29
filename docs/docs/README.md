@@ -5,10 +5,12 @@ MINDBODY site to create a robust charting system without the need for duplicated
 is meant to take you from sign up to advanced usage in as little time as possible. 
 
 If you have any questions that we don't answer here, please give us a shout.
-
+{{1+1}}
+<clientOnly>
 <form 
 	name="contact" 
 	method="post"
+	id="contact-form"
     data-netlify="true"
     data-netlify-honeypot="bot-field">
   <p>
@@ -24,3 +26,18 @@ If you have any questions that we don't answer here, please give us a shout.
     <button type="submit">Send</button>
   </p>
 </form>
+</clientOnly>
+
+<style scoped>
+	#contact-form {
+		
+	}
+	
+	#contact-form input {
+		width: 80%;
+	}
+	
+	#contact-form textarea {
+		width: 80%;
+	}
+</style>
