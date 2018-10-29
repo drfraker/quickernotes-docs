@@ -25,6 +25,6 @@
         width 100%
 
     textarea
-        width 80%
+        width 100%
 
 </style>

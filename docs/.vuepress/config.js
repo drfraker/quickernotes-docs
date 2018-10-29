@@ -31,6 +31,11 @@ module.exports = {
           `/docs/custom-diagrams/deleting-images`,
         ]
       }
-    ]
+    ],
+
+    plugins: {
+      '@vuepress/i18n-ui': true,
+      '@vuepress/back-to-top': true
+    }
   }
 }
