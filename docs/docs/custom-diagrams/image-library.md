@@ -13,7 +13,7 @@ Email a copy of it to us and we will add it here.
 
 ### Images
 #### Blank body diagram
-![body diagram](/images/body-diagram.png "blank body diagram")
+![body diagram](/images/body-diagram.jpg "blank body diagram")
 
 #### Labeled body diagram
-![labeled body diagram](/images/body-diagram-labeled.png "labeled body diagram")
+![labeled body diagram](/images/body-diagram-labeled.jpg "labeled body diagram")
