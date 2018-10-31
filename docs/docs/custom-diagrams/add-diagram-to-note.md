@@ -11,7 +11,7 @@
 	- Select a background to draw on
 	- Select a pen color or multiple pen colors
 	- Select a pen width or multiple pen widths
-	- Use your mouse cursor on computer or touch screen on table to draw on the image.
+	- Use your mouse cursor on computer or touch screen on tablet to draw on the image.
 	
 - Click the **Attach Diagram To Note** button to add the image to your progress note.
 ![Insert Diagram](/images/insert-diagram-view.png "insert diagram")
