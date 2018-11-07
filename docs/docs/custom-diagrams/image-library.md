@@ -17,3 +17,6 @@ Email a copy of it to us and we will add it here.
 
 #### Labeled body diagram
 ![labeled body diagram](/images/body-diagram-labeled.jpg "labeled body diagram")
+
+#### Spine diagram
+![labeled body diagram](/images/spine-bg.jpg "spine diagram")
