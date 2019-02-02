@@ -9,8 +9,11 @@ QuickerNotes does note have access to your MINDBODY passwords and we have no way
 ## Adding your staff members
 QuickerNotes will automatically add all of the staff members from your MINDBODY site. We will set each user's role
 to the minimum settings by default.
+
+**Default user settings**
 - They are assigned a role of "user"
 - They are allowed to login but are only allowed to see their own appointments and notes.
+- They cannot "review" notes.
 
 ### Edit your staff profile to increase permissions
 Assuming you are logged in with the owner account you will see a Clinic Admin section at the top of your dashboard.
@@ -31,3 +34,4 @@ You won't want to login as the owner unless you schedule appointments for that p
 
 
 [qn-login]: https://quickernotes.com/login
+

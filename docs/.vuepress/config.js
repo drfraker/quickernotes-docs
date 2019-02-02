@@ -32,6 +32,13 @@ module.exports = {
           `/docs/custom-diagrams/add-diagram-to-note`,
           `/docs/custom-diagrams/image-library`,
         ]
+      },
+      {
+        title: 'REVIEW & SIGN NOTES',
+        children: [
+          `/docs/reviewing-notes/set-reviewer-permissions`,
+          `/docs/reviewing-notes/review-notes`,
+        ]
       }
     ],
 
