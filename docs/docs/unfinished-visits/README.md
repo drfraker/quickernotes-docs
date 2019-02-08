@@ -12,7 +12,10 @@ When you are logged into the system, if you have any unfinished visits, you will
 the number of unfinished visits you have to complete. Clicking this icon will take you to a page where
 you will be able to view all appointments or classes that require a SOAP note to be completed before it can be
 removed from the unfinished visit list. Once you complete a note for each item, it will automatically be removed from
-the list.
+the list. In the image below you can see the bell icon with a red badge containing the number 2. This indicates
+that the logged in user has 2 unfinished SOAP notes. Clicking on this icon will take the user to a page that displays
+each visit that requires a note to be completed.
+
 ![unfinished visit tracking provider](/images/unfinished-visits/provider-indicator-icon.png "Unfinished visits indicator")
 
 ## Using unfinished visit tracking as an admin/owner.
