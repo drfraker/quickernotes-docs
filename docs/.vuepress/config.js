@@ -39,6 +39,12 @@ module.exports = {
           `/docs/reviewing-notes/set-reviewer-permissions`,
           `/docs/reviewing-notes/review-notes`,
         ]
+      },
+      {
+        title: 'UNFINISHED VISITS',
+        children: [
+          `/docs/unfinished-visits/`
+        ]
       }
     ],
 
